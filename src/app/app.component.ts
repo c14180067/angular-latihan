@@ -23,12 +23,10 @@ clear() {
 
 tmp1 = this.x;
 a = this.z-this.y+1;
-arr = new Array(this.a);
+arr = new Array(this.z-this.y);
 
-  for(var i = 0;i<this.a;i++) {
-    this.arr[i] = new Array(this.tmp1);
-    this.tmp1++;
-  }
+for(var i = 0;i<this.a;i++) {
+  inp = this.arr.push(this.tmp1);
 }
 
 }
