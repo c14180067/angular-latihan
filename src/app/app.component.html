@@ -1,0 +1,17 @@
+<p>
+  Perkalian
+</p>
+<br/>
+<div>
+  Input x: <input [(ngModel)] = "x" type="text">
+  <br/>
+  Input y: <input [(ngModel)] = "y" type="text">
+  <br/>
+  Hasil: {{ hitung() }}
+  <br/>
+  <button (click) = "clear()">Clear</button>
+  
+  <div *ngFor = "let i from arr">
+    <div *ngFor = "let j from arr[i]">*</div>
+  </div>
+
