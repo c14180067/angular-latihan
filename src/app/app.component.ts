@@ -25,7 +25,8 @@ tmp1 = this.x;
 a = this.z-this.y+1;
 arr = new Array(this.z-this.y);
 
-for(var i = 0;i<this.a;i++) {
+let i : number;
+for(i = 0;i<this.a;i++) {
   inp = this.arr.push(this.tmp1);
 }
 
